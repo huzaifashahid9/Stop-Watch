@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huzaifa Stop Watch</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Stop Watch</h1>
+        <p class="time">
+            <span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milisec">00</span>
+        </p>
+        <button id="start" onclick="starttimer()"  class="start">Start</button>
+        <button onclick="stopTimer()" class="stop">Stop</button>
+        <button onclick="resetTimer()" class="reset">Reset</button>
+    </div>
+
+</body>
+<script src="./app.js"></script>
+</html>
